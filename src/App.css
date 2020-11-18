@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.subTitle {
+  font-family: Overpass;
+  font-size: 16px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #0b1b26;
 }
-
-.App-logo {
-  height: 40vmin;
+.name {
+  font-family: Overpass;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #0054ff;
+}
+.block {
+  margin-left: 10px;
+}
+.title {
+  margin-left: 10px;
+  font-family: Overpass;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #0b1b26;
+}
+.leaflet-popup-tip-container {
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  margin-left: -30px;
   pointer-events: none;
+  transform: rotate(90deg);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.leaflet-popup {
+  position: relative;
+  text-align: right;
 }
